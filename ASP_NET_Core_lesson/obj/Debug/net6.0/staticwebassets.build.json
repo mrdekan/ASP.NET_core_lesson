@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HJJhV+5X5+IrIbfM3KSNtHg4D/AN+0pWDzDXfd9EcvA=",
+  "Hash": "wKv9NcMzQWeWdEcjL5GJfKjZcO8bk18A+2qNK04hoxo=",
   "Source": "ASP_NET_Core_lesson",
   "BasePath": "_content/ASP_NET_Core_lesson",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\code\\ASP.NET Core\\ASP_NET_Core_lesson\\ASP_NET_Core_lesson\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ASP_NET_Core_lesson.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\code\\ASP.NET Core\\ASP_NET_Core_lesson\\ASP_NET_Core_lesson\\wwwroot\\css\\nullstyle.css",
+      "SourceId": "ASP_NET_Core_lesson",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\code\\ASP.NET Core\\ASP_NET_Core_lesson\\ASP_NET_Core_lesson\\wwwroot\\",
+      "BasePath": "_content/ASP_NET_Core_lesson",
+      "RelativePath": "css/nullstyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\nullstyle.css"
     },
     {
       "Identity": "F:\\code\\ASP.NET Core\\ASP_NET_Core_lesson\\ASP_NET_Core_lesson\\wwwroot\\css\\site.css",

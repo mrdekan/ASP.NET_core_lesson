@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ASP_NET_Core_lesson.bundle.scp.css"
     },
     {
+      "Id": "F:\\code\\ASP.NET Core\\ASP_NET_Core_lesson\\ASP_NET_Core_lesson\\wwwroot\\css\\nullstyle.css",
+      "PackagePath": "staticwebassets\\css\\nullstyle.css"
+    },
+    {
       "Id": "F:\\code\\ASP.NET Core\\ASP_NET_Core_lesson\\ASP_NET_Core_lesson\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
