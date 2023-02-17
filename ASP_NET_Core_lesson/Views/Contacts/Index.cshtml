@@ -1,0 +1,35 @@
+﻿@model Contact
+@{
+    ViewData["Title"] = "Contacts";
+}
+
+<h1>Contacts page</h1>
+
+<form method="post" asp-controller="Contacts" asp-action="Check">
+	<div class="form-element">
+	<label asp-for="Name"></label>
+	<input asp-for="Name" />
+	<span asp-validation-for="Name"></span>
+	</div>
+	<div class="form-element">
+	<label asp-for="Surname"></label>
+	<input asp-for="Surname" />
+	<span asp-validation-for="Surname"></span>
+	</div>
+	<div class="form-element">
+	<label asp-for="Age"></label>
+	<input asp-for="Age" />
+	<span asp-validation-for="Age"></span>
+	</div>
+	<div class="form-element">
+	<label asp-for="Email"></label>
+	<input asp-for="Email" />
+	<span asp-validation-for="Email"></span>
+	</div>
+	<div class="form-element">
+	<label asp-for="Message"></label>
+	<input asp-for="Message" />
+	<span asp-validation-for="Message"></span>
+	</div>
+	<input type="submit" value="Send" class="Button"/>
+</form>
