@@ -3,54 +3,108 @@
 
 body {
     position: relative;
-    background-color: #DDC5A2;
-    color: #301B28;
+    background-color: #262626;
+    color: #fff;
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
 }
-.logo{
+
+.logo {
     font-size: 22px;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    width: 200px;
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px #333;
+}
+
+form {
+    background-color: #333;
+    border: 1px solid #666;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #000;
+    margin: 0 auto;
+    padding: 30px;
+    width: 70%;
+    max-width: 600px;
+}
+form span{
+    color: #ff0000;
+    font-weight: bold;
+    display: block;
+    margin: -10px 0 5px;
+}
+label {
+    display: block;
     font-size: 18px;
-    margin-left: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
-.Button {
-    margin-top: 10px;
-    height: 30px;
-    color: papayawhip;
-    background-color: #523634;
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #262626;
 }
-.form-element{
-    width: 200px;
-    display: flex;
-    justify-content: end;
-}
+
+    input[type=text], input[type=number], input[type=email] {
+        border: 1px solid #666;
+        border-radius: 5px;
+        box-shadow: inset 1px 1px 3px #444;
+        margin-bottom: 15px;
+        padding: 10px;
+        width: 100%;
+        font-size: 16px;
+        color: #fff;
+        background-color: #262626;
+    }
+
+    input:focus {
+        outline: none;
+        border-color: #6b9ce8;
+        box-shadow: 0 0 10px #6b9ce8;
+    }
+
+    input[type=submit] {
+        background-color: #6b9ce8;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
+
+        input[type=submit]:hover {
+            background-color: #4c6cb3;
+        }
+
 .footer {
     position: fixed;
     z-index: 3;
     width: 100%;
     height: 50px;
-    background-color: #523634;
+    background-color: #181818;
     top: calc(100vh - 50px);
     display: flex;
     align-items: center;
     padding: 0 20px;
-    color: papayawhip;
 }
+
 a {
-    color: papayawhip;
+    color: #fff;
 }
-h1{
-    font-size: 24px;
-    margin: 10px;
-}
+
 header {
-    background-color: #523634;
-    color: papayawhip;
+    background-color: #181818;
     display: flex;
     gap: 30px;
     height: 50px;
